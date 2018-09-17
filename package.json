@@ -1,0 +1,30 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/ --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohanG2012/inbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohanG2012/inbox/issues"
+  },
+  "homepage": "https://github.com/JohanG2012/inbox#readme"
+}
